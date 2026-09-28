@@ -1,0 +1,14 @@
+{
+  "networkType": "4G LTE",
+  "rssi": -67,
+  "rsrp": -91,
+  "rsrq": -10,
+  "sinr": 17,
+  "battery": 82,
+  "txRate": "8.7 Mbps",
+  "rxRate": "38.2 Mbps",
+  "connectedClients": 4,
+  "ssid": "SAM-PRO-83A9",
+  "channel": 6,
+  "bandwidth": 20
+}

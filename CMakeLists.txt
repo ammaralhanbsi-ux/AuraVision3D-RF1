@@ -11,4 +11,8 @@ add_executable(auravision_native_tests
 
 target_include_directories(auravision_native_tests PRIVATE
   ../packages/aura_rf_ffi/src
+idf_component_register(
+  SRCS "main.c" "aura_frame.c" "aura_ble.c" "aura_udp.c"
+  INCLUDE_DIRS "."
+  REQUIRES esp_wifi esp_event nvs_flash esp_netif bt
 )

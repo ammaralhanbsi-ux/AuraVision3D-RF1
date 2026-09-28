@@ -1,0 +1,8 @@
+menu "AuraVision RF Bridge"
+config AURA_UDP_HOST
+    string "Phone IPv4 address"
+    default "192.168.4.2"
+config AURA_UDP_PORT
+    int "Phone UDP port"
+    default 8765
+endmenu
